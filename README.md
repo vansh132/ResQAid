@@ -19,13 +19,14 @@ ResQAid is a mobile application built with Flutter, designed to enhance disaster
   - Educates users on effective disaster response.
 
 - *Self-Care Screen*:
-  - Provides quick remedies for common issues during disasters.
+  - Riverpod quick remedies for common issues during disasters.
   - Features detailed steps and visuals for easy understanding.
 
 ## Tech Stack
 
 - *Framework*: [Flutter](https://flutter.dev/)
-- *State Management*: Provider
+- *State Management*: Riverpod
+- *Background processing:* Work manager
 - *Location Services*: GeoLocator
 - *UI Components*: Material Design
 - *Backend*: Firebase Authentication (for user login/registration)
@@ -34,5 +35,5 @@ ResQAid is a mobile application built with Flutter, designed to enhance disaster
 ## Installation
 
 1. *Clone the repository*:
-   git clone https://github.com/yourusername/resqaid.git \\
+   git clone https://github.com/yourusername/ResQAid.git 
    cd resqaid
