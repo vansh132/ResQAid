@@ -1,16 +1,38 @@
-# resqaid
+# ResQAid
+# Widget-Wizards | Codefury-Hackathon
 
-A new Flutter project.
+ResQAid is a mobile application built with Flutter, designed to enhance disaster preparedness and response by providing real-time alerts, educational resources, and community engagement features. The app empowers users to stay informed, take appropriate actions during emergencies, and contribute to relief efforts.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- *Home Screen*:
+  - Fetches user's current location using GeoLocator.
+  - Displays real-time disaster alerts, weather conditions, air quality index, and forecasts.
+  - Includes a chatbot powered by GEMINI for interactive communication.
 
-A few resources to get you started if this is your first Flutter project:
+- *AID Request Screen*:
+  - Lists disaster relief requests posted by governments.
+  - Allows users to volunteer for relief efforts or donate to relief funds.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- *Guidance Screen*:
+  - Offers tutorial videos explaining the do's and don'ts during various types of disasters.
+  - Educates users on effective disaster response.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- *Self-Care Screen*:
+  - Provides quick remedies for common issues during disasters.
+  - Features detailed steps and visuals for easy understanding.
+
+## Tech Stack
+
+- *Framework*: [Flutter](https://flutter.dev/)
+- *State Management*: Provider
+- *Location Services*: GeoLocator
+- *UI Components*: Material Design
+- *Backend*: Firebase Authentication (for user login/registration)
+- *API Integration*: Weather and Air Quality APIs
+
+## Installation
+
+1. *Clone the repository*:
+   git clone https://github.com/yourusername/resqaid.git \\
+   cd resqaid
